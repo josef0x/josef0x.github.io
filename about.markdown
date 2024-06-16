@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I'm <a href="https://www.linkedin.com/in/abyaa">Youssef Abyaa</a>, a second-year Master's student in Cybersecurity at <a href='https://www.univ-grenoble-alpes.fr/'>Université Grenoble Alpes</a>. I hold a bachelor's in Mathematics and Computer Science. I am interested in Mathematics $\cap$ Computer Science in general and Information Security in particular. If you find any mistake or just want to discuss anything related to the topics mentioned herein, please feel free to reach out to me at `abyaa.youssef[at]protonmail.com`.
