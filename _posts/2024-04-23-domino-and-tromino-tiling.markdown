@@ -33,14 +33,14 @@ For $n = 4$, there are 11 ways:
 
 ![](/images/4-board_tiling.svg)
 {: refdef}
-*Figure 3: Possible tilings of a $2 \times 4$ board - 11 in total* 
+*Figure 3: Possible tilings of a $2 \times 4$ board (11 in total)* 
 {: refdef}
 ### A bit of maths
 
 Now, if we let $T_k$ be the number of ways of tiling a $2 \times k$ board, we can think of $T_k$ in terms of smaller instances (i.e. in terms of $T_{k-i}$ where $i \in 1, \dots, k-1$).
 
 This leads us to the following recursive formula:
-$T_k = T_{k-1} + T_{k-2} + 2 \times T_{k-3} + 2 \times T_{k-4} + \dots + 2 \times T_1 :(1)$
+$T_k = T_{k-1} + T_{k-2} + 2 \times (T_{k-3} + \dots + T_1) :(1)$
 
 $\space \space \space \space = T_{k-1} + T_{k-2} + 2 \times \sum_{i=3}^{k-1}T_{k-i} :(2)$
 
