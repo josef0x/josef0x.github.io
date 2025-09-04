@@ -1,0 +1,21 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<h1>Publications</h1>
+
+<ul>
+  {% for pub in site.publications %}
+    <li>
+      <strong>{{ pub.title }}</strong><br>
+      {{ pub.authors }} — <em>{{ pub.venue }}, {{ pub.year }}</em><br>
+      {% if pub.external_url %}
+        <a href="{{ pub.external_url }}">Paper</a>
+      {% else %}
+        <a href="{{ pub.url }}">Details</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

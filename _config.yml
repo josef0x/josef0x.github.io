@@ -1,5 +1,20 @@
 theme: minima
-title: homepage
+title: Youssef Abyaa
 description: another guy with a blog
+
 plugins:
   - jekyll-sitemap
+
+collections:
+  publications:
+    output: true
+    permalink: /publications/:title/
+
+# Defaults for pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      nav_exclude: false
